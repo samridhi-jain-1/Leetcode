@@ -6,17 +6,19 @@ class Solution:
             curr+=i
             curr=max(curr,i)
             best=max(best,curr)
-        return best    
-#         sum=0
+        return best   
+        # sum=0
 #         mx=nums[0]
 #         for i in range(len(nums)):
             
 #             sum+=nums[i]
-#             if sum<0:
-#                 sum=0
-#             elif sum>mx:
+            
+#             if sum>mx:
 #                 mx=sum
-#         return mx  
+#             if(sum<0):
+#                 sum=0
+#         return mx 
+
 
             
         
